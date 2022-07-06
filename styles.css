@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .h1 {
   margin-left: 5%;
@@ -22,7 +24,7 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 1.5% 5%;
+  padding: 10px 5%;
   text-decoration: none;
   font-size: 20px;
   margin: 0 auto;
@@ -43,7 +45,7 @@ body {
 
 .header{
   background-image: url("./imgs/bg.png");
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -57,7 +59,7 @@ body {
 
 .h2 {
   padding-left: 5%;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 32px;
   margin-top: auto;
   margin-bottom: 0;
@@ -65,10 +67,9 @@ body {
 
 .p {
   padding-left: 5%;
-  width: 40%;
+  width: 400px;
   min-width: 150px;
   margin-top: 0;
-  margin-bottom: 5%;
 }
 
 .container{
@@ -95,7 +96,7 @@ body {
 .chartTwo .h2{
   color: #e43631;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 200;
   margin-top: 0;
   margin-bottom: 5%;
   width: 100%;
@@ -104,7 +105,6 @@ body {
 
 .chartTwo .p{
   color: #383838;
-  font-weight: 600;
   font-size: large;
   margin-top: auto;
   margin-bottom: 0;
@@ -127,6 +127,11 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+
+  body{
+    margin: 5px;
+  }
+
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: left;
@@ -143,6 +148,10 @@ body {
     float: none;
     display: block;
     text-align: center;
+  }
+
+  .header{
+    background-position: 80% 0%;
   }
 
   .chartOne{
