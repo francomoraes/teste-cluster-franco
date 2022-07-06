@@ -1,6 +1,6 @@
 # TESTE ESTÁGIO FRONT-END
 
-[Link para acesso](https://francomoraes.github.io/teste-cluster-franco-moraes/)
+[Link para acesso](https://teste-cluster-franco-moraes.netlify.app/)
 
 Você deverá montar o layout da página abaixo.
 
